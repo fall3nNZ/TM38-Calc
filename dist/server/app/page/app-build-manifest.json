@@ -1,0 +1,28 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/15b50_next_dist_3dfcfd44._.js",
+      "static/chunks/Documents_GitHub_TM38-Calc_app_favicon_ico_mjs_e52e8395._.js",
+      "static/chunks/Documents_GitHub_TM38-Calc_app_globals_18d6a036.css",
+      "static/chunks/15b50_8d6bfe01._.js",
+      "static/chunks/Documents_GitHub_TM38-Calc_src_7d6fb812._.js",
+      "static/chunks/Documents_GitHub_TM38-Calc_app_layout_tsx_5372dee1._.js",
+      "static/chunks/15b50_next_dist_client_components_builtin_global-error_ab3d2f04.js",
+      "static/chunks/Documents_GitHub_TM38-Calc_app_page_tsx_abb6c3b9._.js",
+      "static/chunks/15b50_lodash_d7128258._.js",
+      "static/chunks/15b50_recharts_es6_006e40fd._.js",
+      "static/chunks/15b50_next_d6bbff36._.js",
+      "static/chunks/15b50_f5fcf00e._.js",
+      "static/chunks/Documents_GitHub_TM38-Calc_app_page_tsx_ab3d2f04._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_816d8de7._.js",
+      "static/chunks/15b50_next_dist_compiled_react-dom_c90ea52f._.js",
+      "static/chunks/15b50_next_dist_compiled_next-devtools_index_baad9a4c.js",
+      "static/chunks/15b50_next_dist_compiled_218abada._.js",
+      "static/chunks/15b50_next_dist_client_7b2b2cb6._.js",
+      "static/chunks/15b50_next_dist_98acd015._.js",
+      "static/chunks/15b50_@swc_helpers_cjs_21341338._.js",
+      "static/chunks/Documents_GitHub_TM38-Calc_a0ff3932._.js",
+      "static/chunks/turbopack-Documents_GitHub_TM38-Calc_21fce435._.js"
+    ]
+  }
+}
