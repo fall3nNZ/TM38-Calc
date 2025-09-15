@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'TM38 Deck Builder',
+  title: 'ConcreteNZ TM38 Calculator',
   description: 'Engineering Calculations for Point Loads based on ConcreteNZ TM38 guidance.',
 };
 

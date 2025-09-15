@@ -1,4 +1,4 @@
-# **App Name**: TM38 Deck Builder
+# **App Name**: ConcreteNZ TM38 Calculator
 
 ## Core Features:
 
