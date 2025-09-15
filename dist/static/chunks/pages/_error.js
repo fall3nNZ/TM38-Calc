@@ -1,0 +1,16 @@
+__turbopack_load_page_chunks__("/_error", [
+  "static/chunks/15b50_next_dist_compiled_next-devtools_index_c4f2101c.js",
+  "static/chunks/15b50_next_dist_compiled_483d2506._.js",
+  "static/chunks/15b50_next_dist_shared_lib_54fe2c3f._.js",
+  "static/chunks/15b50_next_dist_client_9a70d4bf._.js",
+  "static/chunks/15b50_next_dist_d3aa41aa._.js",
+  "static/chunks/15b50_next_error_6137fe2b.js",
+  "static/chunks/[next]_entry_page-loader_ts_2e76bcf9._.js",
+  "static/chunks/15b50_react_704c475d._.js",
+  "static/chunks/15b50_react-dom_cjs_react-dom_development_445dc56e.js",
+  "static/chunks/15b50_react-dom_f8f1066f._.js",
+  "static/chunks/15b50_72ce405d._.js",
+  "static/chunks/[root-of-the-server]__88b1a941._.js",
+  "static/chunks/Documents_GitHub_TM38-Calc_pages__error_2da965e7._.js",
+  "static/chunks/turbopack-Documents_GitHub_TM38-Calc_pages__error_c531816a._.js"
+])

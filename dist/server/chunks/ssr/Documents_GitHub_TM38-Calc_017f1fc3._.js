@@ -50,7 +50,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$
 ;
 ;
 const metadata = {
-    title: 'TM38 Deck Builder',
+    title: 'ConcreteNZ TM38 Calculator',
     description: 'Engineering Calculations for Point Loads based on ConcreteNZ TM38 guidance.'
 };
 function RootLayout({ children }) {

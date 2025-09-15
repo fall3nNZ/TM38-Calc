@@ -4,16 +4,16 @@
 
 # To learn more, see the full assistant reference: https://docs.continue.dev/reference
 
-name: Example Assistant
+name: OPenAi
 version: 1.0.0
 schema: v1
 
 # Models define which AI models this assistant can use
 models:
-  - name: my gpt-5
+  - name: gpt-5
     provider: openai
     model: gpt-5
-    apiKey: YOUR_API_KEY_HERE
+    apiKey: Ysk-proj-5F4YjTtt6DgSe_NHGawIx6Gzuqa1x59h5mGPCeCE4Flee0qkjsana39IaDgjB3i7fL-A-WsP1GT3BlbkFJFXZEht-XwbrD37B5gJwdgfuaS6yt0-AeuDK1-jlLaiBqBLyBLWWH0igCq3Vi9nanmKXP2DiCUAY_HERE
 
 # Context providers define what information the assistant can access
 context:

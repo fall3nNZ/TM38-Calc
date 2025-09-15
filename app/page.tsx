@@ -214,6 +214,18 @@ const findMinThickness = (loadCase: string, allowableStress: number, Ec: number,
 const NavButton = ({ onClick, children }: {onClick: any, children: React.ReactNode}) => (<button onClick={onClick} className="w-full flex justify-between items-center bg-indigo-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-indigo-700 transition duration-300">{children} <ChevronsRight /></button>);
 const ReturnButton = ({ onClick }: {onClick: any}) => (<button onClick={onClick} className="flex items-center bg-gray-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-gray-700 transition duration-300"><ArrowLeft className="mr-2" /> Return to Input Parameters</button>);
 const CustomTooltip = ({ active, payload, label }: any) => { if (active && payload && payload.length) { return (<div className="p-2 bg-gray-700 text-white rounded-md border border-gray-600 text-sm"><p className="label">{`Distance : ${label} mm`}</p>{payload.map((p: any, i: number) => ( <p key={i} style={{ color: p.color }}>{`${p.name} : ${p.value.toFixed(2)} MPa`}</p> ))}</div>); } return null; };
+const ReferencePanel = ({ sharedInputs }: {sharedInputs: any}) => (
+    <div className="bg-gray-50 p-4 rounded-lg shadow-inner border border-gray-200">
+        <h4 className="text-md font-bold mb-3 text-gray-700 border-b pb-2">Reference Parameters</h4>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 text-sm">
+            <div className="text-center"><p className="text-xs text-gray-500">Final Modulus</p><p className="font-semibold text-gray-800">{sharedInputs.finalModulus} <span className="text-xs">MN/m³</span></p></div>
+            <div className="text-center"><p className="text-xs text-gray-500">Concrete Strength</p><p className="font-semibold text-gray-800">{sharedInputs.compressiveStrength} <span className="text-xs">MPa</span></p></div>
+            <div className="text-center"><p className="text-xs text-gray-500">Load Applied At</p><p className="font-semibold text-gray-800">{sharedInputs.loadApplicationTime} <span className="text-xs">Days</span></p></div>
+            <div className="text-center"><p className="text-xs text-gray-500">Joint Detail</p><p className="font-semibold text-gray-800">{sharedInputs.jointType}</p></div>
+            <div className="text-center"><p className="text-xs text-gray-500">Post-Tension</p><p className="font-semibold text-gray-800">{sharedInputs.postTensionStress} <span className="text-xs">MPa</span></p></div>
+        </div>
+    </div>
+);
 const StressChart = ({ data, title, lines }: {data: any, title: string, lines: any[]}) => ( <div className="w-full h-64 mt-4"><h3 className="text-lg font-semibold text-center text-gray-700">{title}</h3><ResponsiveContainer><LineChart data={data} margin={{ top: 5, right: 20, left: -10, bottom: 5 }}><CartesianGrid strokeDasharray="3 3" /><XAxis dataKey="distance" label={{ value: 'Distance from load (mm)', position: 'insideBottom', offset: -5 }} /><YAxis label={{ value: 'Stress (MPa)', angle: -90, position: 'insideLeft' }} domain={['auto', 'auto']} /><Tooltip content={<CustomTooltip />} /><Legend />{lines.map(line => (<Line key={line.dataKey} type="monotone" dataKey={line.dataKey} name={line.name} stroke={line.color} strokeWidth={2} dot={false} />))}</LineChart></ResponsiveContainer></div>);
 
 // --- Page Components ---
@@ -358,7 +370,7 @@ const PointLoadCalculator = ({ sharedInputs, setPage }: {sharedInputs: any, setP
      return (
         <div className="p-4 md:p-6">
             <div className="mb-6"><ReturnButton onClick={() => setPage('inputs')} /></div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="space-y-8">
                  <div className="bg-yellow-50 p-6 rounded-lg shadow-md border border-yellow-200">
                     <h2 className="text-2xl font-bold mb-4 text-gray-800 border-b pb-2">Inputs: Point Loading</h2>
                     <div className="space-y-4">
@@ -376,7 +388,9 @@ const PointLoadCalculator = ({ sharedInputs, setPage }: {sharedInputs: any, setP
                     <button onClick={handleCalculate} disabled={!isFormValid} className="mt-6 w-full bg-green-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-green-700 transition duration-300 disabled:bg-gray-400">Calculate Stresses</button>
                     {!isFormValid && <p className="text-sm text-red-600 mt-2">Please fill all fields with valid numbers greater than zero.</p>}
                  </div>
-                 <div className="bg-blue-50 p-6 rounded-lg shadow-md border border-blue-200">
+                <ReferencePanel sharedInputs={sharedInputs} />
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="bg-blue-50 p-6 rounded-lg shadow-md border border-blue-200">
                     <h2 className="text-2xl font-bold mb-4 text-gray-800 border-b pb-2">Outputs</h2>
                     {outputs ? (
                         <div>
@@ -395,6 +409,7 @@ const PointLoadCalculator = ({ sharedInputs, setPage }: {sharedInputs: any, setP
                         </div>
                     ) : (<div className="text-center text-gray-500 mt-10"><HelpCircle className="mx-auto h-12 w-12 text-gray-400" /><p className="mt-2">Enter input values and click "Calculate" to see the results.</p></div>)}
                  </div>
+                </div>
             </div>
         </div>
     );
@@ -482,6 +497,7 @@ const SingleRackCalculator = ({ sharedInputs, setPage }: {sharedInputs: any, set
                          </div>
                     </div>
                 </div>
+                <div className="lg:col-span-2"><ReferencePanel sharedInputs={sharedInputs} /></div>
             </div>
         </div>
     );
@@ -566,6 +582,7 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage }: {sharedInputs: any,
                     <button onClick={handleCalculateThickness} disabled={isLoading} className="mt-6 w-full bg-green-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-green-700 transition duration-300 disabled:bg-gray-400 flex items-center justify-center">{isLoading && <Loader2 className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" />}{isLoading ? 'Calculating...' : 'Calculate Thickness'}</button>
                 </div>
              <div className="lg:col-span-2 space-y-6">
+                 <ReferencePanel sharedInputs={sharedInputs} />
                  <div className="bg-white p-4 rounded-lg shadow-md flex justify-center items-center border"><Image src="/backtoback-rack.svg" alt="Back-to-Back Rack Layout" className="max-w-xs" width={300} height={200} data-ai-hint="rack layout" /></div>
                 <div className="bg-blue-50 p-6 rounded-lg shadow-md border border-blue-200">
                          <h3 className="text-xl font-bold mb-4 text-gray-800 border-b pb-2">Outputs</h3>
@@ -680,6 +697,7 @@ const WheelLoadCalculator = ({ sharedInputs, setPage }: {sharedInputs: any, setP
                      <button onClick={handleCalculateThickness} disabled={isLoading} className="mt-6 w-full bg-green-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-green-700 disabled:bg-gray-400 flex items-center justify-center">{isLoading && <Loader2 className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" />}{isLoading ? 'Calculating...' : 'Calculate Thickness'}</button>
                 </div>
                  <div className="bg-blue-50 p-6 rounded-lg shadow-md border border-blue-200">
+                    <ReferencePanel sharedInputs={sharedInputs} />
                     <h3 className="text-xl font-bold mb-4 text-gray-800 border-b pb-2">Outputs</h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <ResultCard title="Interior" isLoading={isLoading} imgSrc="https://storage.googleapis.com/stedi-studio-app-assets/user/clvxw4k0i0001mo08e3u9n27j/wheel-interior.png" thickness={outputs.interior?.thickness} ultimateStrength={outputs.interior?.ultimateStrength?.toFixed(2)} factoredStress={outputs.interior?.stress?.toFixed(2)} isCritical={criticalLoadCase === 'interior'} />

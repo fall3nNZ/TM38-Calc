@@ -1,4 +1,10 @@
 module.exports = [
+"[externals]/next/dist/server/app-render/work-async-storage.external.js [external] (next/dist/server/app-render/work-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/server/app-render/work-async-storage.external.js", () => require("next/dist/server/app-render/work-async-storage.external.js"));
+
+module.exports = mod;
+}),
 "[project]/Documents/GitHub/TM38-Calc/app/page.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -8,6 +14,7 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/GitHub/TM38-Calc/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/GitHub/TM38-Calc/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$shared$2f$lib$2f$app$2d$dynamic$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/GitHub/TM38-Calc/node_modules/next/dist/shared/lib/app-dynamic.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$recharts$2f$es6$2f$chart$2f$LineChart$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/GitHub/TM38-Calc/node_modules/recharts/es6/chart/LineChart.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$Line$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/GitHub/TM38-Calc/node_modules/recharts/es6/cartesian/Line.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$XAxis$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/GitHub/TM38-Calc/node_modules/recharts/es6/cartesian/XAxis.js [app-ssr] (ecmascript)");
@@ -22,12 +29,97 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevrons$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronsRight$3e$__ = __turbopack_context__.i("[project]/Documents/GitHub/TM38-Calc/node_modules/lucide-react/dist/esm/icons/chevrons-right.js [app-ssr] (ecmascript) <export default as ChevronsRight>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader2$3e$__ = __turbopack_context__.i("[project]/Documents/GitHub/TM38-Calc/node_modules/lucide-react/dist/esm/icons/loader-circle.js [app-ssr] (ecmascript) <export default as Loader2>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/GitHub/TM38-Calc/node_modules/next/image.js [app-ssr] (ecmascript)");
+;
+;
+;
+;
 "use client";
 ;
 ;
 ;
 ;
 ;
+;
+;
+// --- Dynamic Imports for Code Splitting ---
+const PointLoadCalculator = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$shared$2f$lib$2f$app$2d$dynamic$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(()=>(()=>{
+        const e = new Error("Cannot find module './components/PointLoadCalculator'");
+        e.code = 'MODULE_NOT_FOUND';
+        throw e;
+    })(), {
+    loadableGenerated: {
+        modules: [
+            null
+        ]
+    },
+    loading: ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(LoadingSpinner, {}, void 0, false, {
+            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+            lineNumber: 11,
+            columnNumber: 104
+        }, ("TURBOPACK compile-time value", void 0))
+});
+const SingleRackCalculator = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$shared$2f$lib$2f$app$2d$dynamic$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(()=>(()=>{
+        const e = new Error("Cannot find module './components/SingleRackCalculator'");
+        e.code = 'MODULE_NOT_FOUND';
+        throw e;
+    })(), {
+    loadableGenerated: {
+        modules: [
+            null
+        ]
+    },
+    loading: ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(LoadingSpinner, {}, void 0, false, {
+            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+            lineNumber: 12,
+            columnNumber: 106
+        }, ("TURBOPACK compile-time value", void 0))
+});
+const BackToBackRackCalculator = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$shared$2f$lib$2f$app$2d$dynamic$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(()=>(()=>{
+        const e = new Error("Cannot find module './components/BackToBackRackCalculator'");
+        e.code = 'MODULE_NOT_FOUND';
+        throw e;
+    })(), {
+    loadableGenerated: {
+        modules: [
+            null
+        ]
+    },
+    loading: ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(LoadingSpinner, {}, void 0, false, {
+            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+            lineNumber: 13,
+            columnNumber: 114
+        }, ("TURBOPACK compile-time value", void 0))
+});
+const WheelLoadCalculator = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$shared$2f$lib$2f$app$2d$dynamic$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(()=>(()=>{
+        const e = new Error("Cannot find module './components/WheelLoadCalculator'");
+        e.code = 'MODULE_NOT_FOUND';
+        throw e;
+    })(), {
+    loadableGenerated: {
+        modules: [
+            null
+        ]
+    },
+    loading: ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(LoadingSpinner, {}, void 0, false, {
+            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+            lineNumber: 14,
+            columnNumber: 104
+        }, ("TURBOPACK compile-time value", void 0))
+});
+const LoadingSpinner = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "flex justify-center items-center p-20",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader2$3e$__["Loader2"], {
+            className: "h-12 w-12 animate-spin text-indigo-600"
+        }, void 0, false, {
+            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+            lineNumber: 18,
+            columnNumber: 9
+        }, ("TURBOPACK compile-time value", void 0))
+    }, void 0, false, {
+        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+        lineNumber: 17,
+        columnNumber: 5
+    }, ("TURBOPACK compile-time value", void 0));
 // --- Helper & Calculation Functions based on TM38 ---
 // Constants
 const POISSON_RATIO = 0.15;
@@ -334,13 +426,13 @@ const NavButton = ({ onClick, children })=>/*#__PURE__*/ (0, __TURBOPACK__import
             " ",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevrons$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronsRight$3e$__["ChevronsRight"], {}, void 0, false, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 214,
+                lineNumber: 228,
                 columnNumber: 280
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-        lineNumber: 214,
+        lineNumber: 228,
         columnNumber: 90
     }, ("TURBOPACK compile-time value", void 0));
 const ReturnButton = ({ onClick })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -351,14 +443,14 @@ const ReturnButton = ({ onClick })=>/*#__PURE__*/ (0, __TURBOPACK__imported__mod
                 className: "mr-2"
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 215,
+                lineNumber: 229,
                 columnNumber: 208
             }, ("TURBOPACK compile-time value", void 0)),
             " Return to Input Parameters"
         ]
     }, void 0, true, {
         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-        lineNumber: 215,
+        lineNumber: 229,
         columnNumber: 56
     }, ("TURBOPACK compile-time value", void 0));
 const CustomTooltip = ({ active, payload, label })=>{
@@ -371,7 +463,7 @@ const CustomTooltip = ({ active, payload, label })=>{
                     children: `Distance : ${label} mm`
                 }, void 0, false, {
                     fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                    lineNumber: 216,
+                    lineNumber: 230,
                     columnNumber: 199
                 }, ("TURBOPACK compile-time value", void 0)),
                 payload.map((p, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -381,213 +473,18 @@ const CustomTooltip = ({ active, payload, label })=>{
                         children: `${p.name} : ${p.value.toFixed(2)} MPa`
                     }, i, false, {
                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 216,
+                        lineNumber: 230,
                         columnNumber: 288
                     }, ("TURBOPACK compile-time value", void 0)))
             ]
         }, void 0, true, {
             fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-            lineNumber: 216,
+            lineNumber: 230,
             columnNumber: 113
         }, ("TURBOPACK compile-time value", void 0));
     }
     return null;
 };
-const ReferencePanel = ({ sharedInputs })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "bg-gray-50 p-4 rounded-lg shadow-inner border border-gray-200",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                className: "text-md font-bold mb-3 text-gray-700 border-b pb-2",
-                children: "Reference Parameters"
-            }, void 0, false, {
-                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 219,
-                columnNumber: 9
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 text-sm",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "text-center",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-xs text-gray-500",
-                                children: "Final Modulus"
-                            }, void 0, false, {
-                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 221,
-                                columnNumber: 42
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "font-semibold text-gray-800",
-                                children: [
-                                    sharedInputs.finalModulus,
-                                    " ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-xs",
-                                        children: "MN/m³"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 221,
-                                        columnNumber: 167
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 221,
-                                columnNumber: 96
-                            }, ("TURBOPACK compile-time value", void 0))
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 221,
-                        columnNumber: 13
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "text-center",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-xs text-gray-500",
-                                children: "Concrete Strength"
-                            }, void 0, false, {
-                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 222,
-                                columnNumber: 42
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "font-semibold text-gray-800",
-                                children: [
-                                    sharedInputs.compressiveStrength,
-                                    " ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-xs",
-                                        children: "MPa"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 222,
-                                        columnNumber: 178
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 222,
-                                columnNumber: 100
-                            }, ("TURBOPACK compile-time value", void 0))
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 222,
-                        columnNumber: 13
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "text-center",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-xs text-gray-500",
-                                children: "Load Applied At"
-                            }, void 0, false, {
-                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 223,
-                                columnNumber: 42
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "font-semibold text-gray-800",
-                                children: [
-                                    sharedInputs.loadApplicationTime,
-                                    " ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-xs",
-                                        children: "Days"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 223,
-                                        columnNumber: 176
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 223,
-                                columnNumber: 98
-                            }, ("TURBOPACK compile-time value", void 0))
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 223,
-                        columnNumber: 13
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "text-center",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-xs text-gray-500",
-                                children: "Joint Detail"
-                            }, void 0, false, {
-                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 224,
-                                columnNumber: 42
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "font-semibold text-gray-800",
-                                children: sharedInputs.jointType
-                            }, void 0, false, {
-                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 224,
-                                columnNumber: 95
-                            }, ("TURBOPACK compile-time value", void 0))
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 224,
-                        columnNumber: 13
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "text-center",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-xs text-gray-500",
-                                children: "Post-Tension"
-                            }, void 0, false, {
-                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 225,
-                                columnNumber: 42
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "font-semibold text-gray-800",
-                                children: [
-                                    sharedInputs.postTensionStress,
-                                    " ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-xs",
-                                        children: "MPa"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 225,
-                                        columnNumber: 171
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 225,
-                                columnNumber: 95
-                            }, ("TURBOPACK compile-time value", void 0))
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 225,
-                        columnNumber: 13
-                    }, ("TURBOPACK compile-time value", void 0))
-                ]
-            }, void 0, true, {
-                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 220,
-                columnNumber: 9
-            }, ("TURBOPACK compile-time value", void 0))
-        ]
-    }, void 0, true, {
-        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-        lineNumber: 218,
-        columnNumber: 5
-    }, ("TURBOPACK compile-time value", void 0));
 const StressChart = ({ data, title, lines })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "w-full h-64 mt-4",
         children: [
@@ -596,7 +493,7 @@ const StressChart = ({ data, title, lines })=>/*#__PURE__*/ (0, __TURBOPACK__imp
                 children: title
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 229,
+                lineNumber: 231,
                 columnNumber: 127
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$recharts$2f$es6$2f$component$2f$ResponsiveContainer$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ResponsiveContainer"], {
@@ -613,7 +510,7 @@ const StressChart = ({ data, title, lines })=>/*#__PURE__*/ (0, __TURBOPACK__imp
                             strokeDasharray: "3 3"
                         }, void 0, false, {
                             fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                            lineNumber: 229,
+                            lineNumber: 231,
                             columnNumber: 300
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$XAxis$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["XAxis"], {
@@ -625,7 +522,7 @@ const StressChart = ({ data, title, lines })=>/*#__PURE__*/ (0, __TURBOPACK__imp
                             }
                         }, void 0, false, {
                             fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                            lineNumber: 229,
+                            lineNumber: 231,
                             columnNumber: 339
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$YAxis$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["YAxis"], {
@@ -640,23 +537,23 @@ const StressChart = ({ data, title, lines })=>/*#__PURE__*/ (0, __TURBOPACK__imp
                             ]
                         }, void 0, false, {
                             fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                            lineNumber: 229,
+                            lineNumber: 231,
                             columnNumber: 450
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Tooltip$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Tooltip"], {
                             content: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(CustomTooltip, {}, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 229,
+                                lineNumber: 231,
                                 columnNumber: 573
                             }, void 0)
                         }, void 0, false, {
                             fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                            lineNumber: 229,
+                            lineNumber: 231,
                             columnNumber: 555
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Legend$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Legend"], {}, void 0, false, {
                             fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                            lineNumber: 229,
+                            lineNumber: 231,
                             columnNumber: 594
                         }, ("TURBOPACK compile-time value", void 0)),
                         lines.map((line)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$Line$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Line"], {
@@ -668,25 +565,170 @@ const StressChart = ({ data, title, lines })=>/*#__PURE__*/ (0, __TURBOPACK__imp
                                 dot: false
                             }, line.dataKey, false, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 229,
+                                lineNumber: 231,
                                 columnNumber: 624
                             }, ("TURBOPACK compile-time value", void 0)))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                    lineNumber: 229,
+                    lineNumber: 231,
                     columnNumber: 224
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 229,
+                lineNumber: 231,
                 columnNumber: 203
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-        lineNumber: 229,
+        lineNumber: 231,
         columnNumber: 93
+    }, ("TURBOPACK compile-time value", void 0));
+const SharedParametersDisplay = ({ sharedInputs })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "bg-gray-50 p-4 rounded-lg shadow-inner border border-gray-200 mb-6",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                className: "text-lg font-semibold text-gray-700 mb-2",
+                children: "Calculation Parameters"
+            }, void 0, false, {
+                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                lineNumber: 235,
+                columnNumber: 9
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 text-sm",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "bg-white p-2 rounded shadow-sm",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "Sub-grade Modulus (k'):"
+                            }, void 0, false, {
+                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                lineNumber: 237,
+                                columnNumber: 61
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                lineNumber: 237,
+                                columnNumber: 101
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            " ",
+                            sharedInputs.finalModulus,
+                            " MN/m³"
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                        lineNumber: 237,
+                        columnNumber: 13
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "bg-white p-2 rounded shadow-sm",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "Concrete Strength (fc'):"
+                            }, void 0, false, {
+                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                lineNumber: 238,
+                                columnNumber: 61
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                lineNumber: 238,
+                                columnNumber: 102
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            " ",
+                            sharedInputs.compressiveStrength,
+                            " MPa"
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                        lineNumber: 238,
+                        columnNumber: 13
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "bg-white p-2 rounded shadow-sm",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "Load Applied at:"
+                            }, void 0, false, {
+                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                lineNumber: 239,
+                                columnNumber: 61
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                lineNumber: 239,
+                                columnNumber: 94
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            " ",
+                            sharedInputs.loadApplicationTime,
+                            " Days"
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                        lineNumber: 239,
+                        columnNumber: 13
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "bg-white p-2 rounded shadow-sm",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "Joint Type:"
+                            }, void 0, false, {
+                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                lineNumber: 240,
+                                columnNumber: 61
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                lineNumber: 240,
+                                columnNumber: 89
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            " ",
+                            sharedInputs.jointType
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                        lineNumber: 240,
+                        columnNumber: 13
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "bg-white p-2 rounded shadow-sm",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "Post-Tension Stress:"
+                            }, void 0, false, {
+                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                lineNumber: 241,
+                                columnNumber: 61
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                lineNumber: 241,
+                                columnNumber: 98
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            " ",
+                            sharedInputs.postTensionStress,
+                            " MPa"
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                        lineNumber: 241,
+                        columnNumber: 13
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
+                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                lineNumber: 236,
+                columnNumber: 9
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true, {
+        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+        lineNumber: 234,
+        columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 // --- Page Components ---
 const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
@@ -741,7 +783,7 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                 children: "Soil Properties"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 270,
+                                lineNumber: 285,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -755,7 +797,7 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                 children: "Stiffness estimated using:"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 272,
+                                                lineNumber: 287,
                                                 columnNumber: 50
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -769,7 +811,7 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                         children: "CBR"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 274,
+                                                        lineNumber: 289,
                                                         columnNumber: 33
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -777,19 +819,19 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                         children: "Scala Penetrometer"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 275,
+                                                        lineNumber: 290,
                                                         columnNumber: 33
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 273,
+                                                lineNumber: 288,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 272,
+                                        lineNumber: 287,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     sharedInputs.stiffnessMethod === 'CBR' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -800,7 +842,7 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                 children: "CBR Results (%)"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 279,
+                                                lineNumber: 294,
                                                 columnNumber: 54
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -811,13 +853,13 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                 className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 279,
+                                                lineNumber: 294,
                                                 columnNumber: 120
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 279,
+                                        lineNumber: 294,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                         className: "block",
@@ -827,7 +869,7 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                 children: "Scala Penetrometer Results (mm per blow)"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 281,
+                                                lineNumber: 296,
                                                 columnNumber: 54
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -838,13 +880,13 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                 className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 281,
+                                                lineNumber: 296,
                                                 columnNumber: 145
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 281,
+                                        lineNumber: 296,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -859,13 +901,13 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 283,
+                                                lineNumber: 298,
                                                 columnNumber: 86
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 283,
+                                        lineNumber: 298,
                                         columnNumber: 26
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -879,7 +921,7 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                 className: "rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-offset-0 focus:ring-indigo-200 focus:ring-opacity-50"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 285,
+                                                lineNumber: 300,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -887,13 +929,13 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                 children: "Modify Sub-grade Modulus with Granular Subbase"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 286,
+                                                lineNumber: 301,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 284,
+                                        lineNumber: 299,
                                         columnNumber: 26
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     sharedInputs.useSubbase && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -904,7 +946,7 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                 children: "Thickness of Granular Subbase (mm)"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 289,
+                                                lineNumber: 304,
                                                 columnNumber: 54
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -915,13 +957,13 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                 className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 289,
+                                                lineNumber: 304,
                                                 columnNumber: 139
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 289,
+                                        lineNumber: 304,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -936,25 +978,25 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 291,
+                                                lineNumber: 306,
                                                 columnNumber: 130
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 291,
+                                        lineNumber: 306,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 271,
+                                lineNumber: 286,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 269,
+                        lineNumber: 284,
                         columnNumber: 18
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -965,7 +1007,7 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                 children: "Concrete & Joint Properties"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 295,
+                                lineNumber: 310,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -979,7 +1021,7 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                 children: "28 Day Compressive Strength (MPa)"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 297,
+                                                lineNumber: 312,
                                                 columnNumber: 50
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -990,13 +1032,13 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                 className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 297,
+                                                lineNumber: 312,
                                                 columnNumber: 134
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 297,
+                                        lineNumber: 312,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1006,7 +1048,7 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                 children: "Full Design Load Applied at"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 300,
+                                                lineNumber: 315,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1024,7 +1066,7 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                         children: "28 Days"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 302,
+                                                        lineNumber: 317,
                                                         columnNumber: 33
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1039,19 +1081,19 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                         children: "90 Days"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 303,
+                                                        lineNumber: 318,
                                                         columnNumber: 33
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 301,
+                                                lineNumber: 316,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 299,
+                                        lineNumber: 314,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1062,7 +1104,7 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                 children: "Joint Detail"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 307,
+                                                lineNumber: 322,
                                                 columnNumber: 50
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1075,33 +1117,33 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                         children: "Dowel Joints"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 309,
+                                                        lineNumber: 324,
                                                         columnNumber: 33
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                         children: "Tied Joints"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 309,
+                                                        lineNumber: 324,
                                                         columnNumber: 62
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                         children: "No Load Transfer"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 309,
+                                                        lineNumber: 324,
                                                         columnNumber: 90
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 308,
+                                                lineNumber: 323,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 307,
+                                        lineNumber: 322,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1112,7 +1154,7 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                 children: "Residual Post-Tension Stress (MPa)"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 312,
+                                                lineNumber: 327,
                                                 columnNumber: 51
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1123,31 +1165,31 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                                 className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 312,
+                                                lineNumber: 327,
                                                 columnNumber: 136
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 312,
+                                        lineNumber: 327,
                                         columnNumber: 26
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 296,
+                                lineNumber: 311,
                                 columnNumber: 22
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 294,
+                        lineNumber: 309,
                         columnNumber: 18
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 268,
+                lineNumber: 283,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1158,7 +1200,7 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                         children: "Select Calculator"
                     }, void 0, false, {
                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 318,
+                        lineNumber: 333,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1169,7 +1211,7 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                 children: "Point Loading"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 320,
+                                lineNumber: 335,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(NavButton, {
@@ -1177,7 +1219,7 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                 children: "Rack Loads - Single Line"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 321,
+                                lineNumber: 336,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(NavButton, {
@@ -1185,7 +1227,7 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                 children: "Rack Loads - Back-to-Back"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 322,
+                                lineNumber: 337,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(NavButton, {
@@ -1193,25 +1235,25 @@ const InputParameters = ({ sharedInputs, setSharedInputs, setPage })=>{
                                 children: "Wheel Loads"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 323,
+                                lineNumber: 338,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 319,
+                        lineNumber: 334,
                         columnNumber: 18
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 317,
+                lineNumber: 332,
                 columnNumber: 14
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-        lineNumber: 267,
+        lineNumber: 282,
         columnNumber: 7
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -1282,16 +1324,16 @@ const PointLoadCalculator = ({ sharedInputs, setPage })=>{
                     onClick: ()=>setPage('inputs')
                 }, void 0, false, {
                     fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                    lineNumber: 372,
+                    lineNumber: 387,
                     columnNumber: 35
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 372,
+                lineNumber: 387,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "space-y-8",
+                className: "grid grid-cols-1 md:grid-cols-2 gap-8",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "bg-yellow-50 p-6 rounded-lg shadow-md border border-yellow-200",
@@ -1301,7 +1343,7 @@ const PointLoadCalculator = ({ sharedInputs, setPage })=>{
                                 children: "Inputs: Point Loading"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 375,
+                                lineNumber: 390,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1315,7 +1357,7 @@ const PointLoadCalculator = ({ sharedInputs, setPage })=>{
                                                 children: "Unfactored Applied Loading (kN)"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 377,
+                                                lineNumber: 392,
                                                 columnNumber: 50
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1326,13 +1368,13 @@ const PointLoadCalculator = ({ sharedInputs, setPage })=>{
                                                 className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 377,
+                                                lineNumber: 392,
                                                 columnNumber: 132
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 377,
+                                        lineNumber: 392,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1343,7 +1385,7 @@ const PointLoadCalculator = ({ sharedInputs, setPage })=>{
                                                 children: "Loaded Shape"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 378,
+                                                lineNumber: 393,
                                                 columnNumber: 50
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1357,7 +1399,7 @@ const PointLoadCalculator = ({ sharedInputs, setPage })=>{
                                                         children: "Circular Pad"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 380,
+                                                        lineNumber: 395,
                                                         columnNumber: 33
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1365,7 +1407,7 @@ const PointLoadCalculator = ({ sharedInputs, setPage })=>{
                                                         children: "Square Pad"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 380,
+                                                        lineNumber: 395,
                                                         columnNumber: 79
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1373,19 +1415,19 @@ const PointLoadCalculator = ({ sharedInputs, setPage })=>{
                                                         children: "Rectangular Pad"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 380,
+                                                        lineNumber: 395,
                                                         columnNumber: 121
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 379,
+                                                lineNumber: 394,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 378,
+                                        lineNumber: 393,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     inputs.loadedShape === 'circular' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1396,7 +1438,7 @@ const PointLoadCalculator = ({ sharedInputs, setPage })=>{
                                                 children: "Diameter (mm)"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 383,
+                                                lineNumber: 398,
                                                 columnNumber: 89
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1407,13 +1449,13 @@ const PointLoadCalculator = ({ sharedInputs, setPage })=>{
                                                 className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 383,
+                                                lineNumber: 398,
                                                 columnNumber: 153
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 383,
+                                        lineNumber: 398,
                                         columnNumber: 64
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     inputs.loadedShape === 'square' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1424,7 +1466,7 @@ const PointLoadCalculator = ({ sharedInputs, setPage })=>{
                                                 children: "Side Length (mm)"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 384,
+                                                lineNumber: 399,
                                                 columnNumber: 87
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1435,13 +1477,13 @@ const PointLoadCalculator = ({ sharedInputs, setPage })=>{
                                                 className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 384,
+                                                lineNumber: 399,
                                                 columnNumber: 154
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 384,
+                                        lineNumber: 399,
                                         columnNumber: 62
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     inputs.loadedShape === 'rectangular' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1455,7 +1497,7 @@ const PointLoadCalculator = ({ sharedInputs, setPage })=>{
                                                         children: "Width (mm)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 385,
+                                                        lineNumber: 400,
                                                         columnNumber: 130
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1466,13 +1508,13 @@ const PointLoadCalculator = ({ sharedInputs, setPage })=>{
                                                         className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 385,
+                                                        lineNumber: 400,
                                                         columnNumber: 191
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 385,
+                                                lineNumber: 400,
                                                 columnNumber: 99
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1483,7 +1525,7 @@ const PointLoadCalculator = ({ sharedInputs, setPage })=>{
                                                         children: "Length (mm)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 385,
+                                                        lineNumber: 400,
                                                         columnNumber: 381
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1494,19 +1536,19 @@ const PointLoadCalculator = ({ sharedInputs, setPage })=>{
                                                         className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 385,
+                                                        lineNumber: 400,
                                                         columnNumber: 443
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 385,
+                                                lineNumber: 400,
                                                 columnNumber: 350
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 385,
+                                        lineNumber: 400,
                                         columnNumber: 67
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1517,7 +1559,7 @@ const PointLoadCalculator = ({ sharedInputs, setPage })=>{
                                                 children: "Slab Thickness (mm)"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 386,
+                                                lineNumber: 401,
                                                 columnNumber: 50
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1528,19 +1570,19 @@ const PointLoadCalculator = ({ sharedInputs, setPage })=>{
                                                 className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 386,
+                                                lineNumber: 401,
                                                 columnNumber: 120
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 386,
+                                        lineNumber: 401,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 376,
+                                lineNumber: 391,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1550,7 +1592,7 @@ const PointLoadCalculator = ({ sharedInputs, setPage })=>{
                                 children: "Calculate Stresses"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 388,
+                                lineNumber: 403,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             !isFormValid && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1558,269 +1600,255 @@ const PointLoadCalculator = ({ sharedInputs, setPage })=>{
                                 children: "Please fill all fields with valid numbers greater than zero."
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 389,
+                                lineNumber: 404,
                                 columnNumber: 38
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 374,
+                        lineNumber: 389,
                         columnNumber: 18
                     }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ReferencePanel, {
-                        sharedInputs: sharedInputs
-                    }, void 0, false, {
-                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 391,
-                        columnNumber: 17
-                    }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid grid-cols-1 md:grid-cols-2 gap-8",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "bg-blue-50 p-6 rounded-lg shadow-md border border-blue-200",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-2xl font-bold mb-4 text-gray-800 border-b pb-2",
-                                    children: "Outputs"
-                                }, void 0, false, {
-                                    fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                    lineNumber: 394,
-                                    columnNumber: 21
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                outputs ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "grid grid-cols-2 gap-4 mb-4 text-center",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "bg-white p-3 rounded-lg shadow",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-sm text-gray-600",
-                                                            children: "Allowable Stress (fr)"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                            lineNumber: 398,
-                                                            columnNumber: 81
-                                                        }, ("TURBOPACK compile-time value", void 0)),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-xl font-bold text-green-600",
-                                                            children: [
-                                                                outputs.fr.toFixed(2),
-                                                                " MPa"
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                            lineNumber: 398,
-                                                            columnNumber: 143
-                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                    lineNumber: 398,
-                                                    columnNumber: 33
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "bg-white p-3 rounded-lg shadow",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-sm text-gray-600",
-                                                            children: "Load Factor"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                            lineNumber: 399,
-                                                            columnNumber: 81
-                                                        }, ("TURBOPACK compile-time value", void 0)),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-xl font-bold text-gray-700",
-                                                            children: LOAD_FACTOR
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                            lineNumber: 399,
-                                                            columnNumber: 133
-                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                    lineNumber: 399,
-                                                    columnNumber: 33
-                                                }, ("TURBOPACK compile-time value", void 0))
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                            lineNumber: 397,
-                                            columnNumber: 29
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-lg font-semibold text-gray-700 mb-2",
-                                            children: "Factored Stresses"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                            lineNumber: 401,
-                                            columnNumber: 29
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "space-y-2",
-                                            children: [
-                                                {
-                                                    name: 'Interior',
-                                                    value: outputs.sigma_i
-                                                },
-                                                {
-                                                    name: 'Edge',
-                                                    value: outputs.sigma_e
-                                                },
-                                                {
-                                                    name: 'Corner',
-                                                    value: outputs.sigma_c
-                                                }
-                                            ].map((stress)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: `flex justify-between items-center p-3 rounded-lg ${stress.value > outputs.fr ? 'bg-red-100' : 'bg-green-100'}`,
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "font-medium text-gray-800",
-                                                            children: [
-                                                                stress.name,
-                                                                " Stress:"
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                            lineNumber: 403,
-                                                            columnNumber: 329
-                                                        }, ("TURBOPACK compile-time value", void 0)),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "flex items-center gap-2",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: `font-bold text-lg ${stress.value > outputs.fr ? 'text-red-600' : 'text-green-700'}`,
-                                                                    children: [
-                                                                        stress.value.toFixed(2),
-                                                                        " MPa"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                    lineNumber: 403,
-                                                                    columnNumber: 442
-                                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                                stress.value > outputs.fr && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$triangle$2d$alert$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__AlertTriangle$3e$__["AlertTriangle"], {
-                                                                    className: "text-red-500",
-                                                                    size: 20
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                    lineNumber: 403,
-                                                                    columnNumber: 611
-                                                                }, ("TURBOPACK compile-time value", void 0))
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                            lineNumber: 403,
-                                                            columnNumber: 401
-                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                    ]
-                                                }, stress.name, true, {
-                                                    fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                    lineNumber: 403,
-                                                    columnNumber: 182
-                                                }, ("TURBOPACK compile-time value", void 0)))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                            lineNumber: 402,
-                                            columnNumber: 29
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "mt-6",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(StressChart, {
-                                                    data: outputs.internalData,
-                                                    title: "Internal Stress Distribution",
-                                                    lines: [
-                                                        {
-                                                            dataKey: 'radial',
-                                                            name: 'Radial Stress',
-                                                            color: '#ff0000'
-                                                        },
-                                                        {
-                                                            dataKey: 'tangential',
-                                                            name: 'Tangential Stress',
-                                                            color: '#000000'
-                                                        }
-                                                    ]
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                    lineNumber: 406,
-                                                    columnNumber: 33
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(StressChart, {
-                                                    data: outputs.edgeData,
-                                                    title: "Edge Stress Distribution",
-                                                    lines: [
-                                                        {
-                                                            dataKey: 'radial',
-                                                            name: 'Radial Stress',
-                                                            color: '#ff0000'
-                                                        }
-                                                    ]
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                    lineNumber: 407,
-                                                    columnNumber: 33
-                                                }, ("TURBOPACK compile-time value", void 0))
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                            lineNumber: 405,
-                                            columnNumber: 29
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                    lineNumber: 396,
-                                    columnNumber: 25
-                                }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "text-center text-gray-500 mt-10",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$help$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__HelpCircle$3e$__["HelpCircle"], {
-                                            className: "mx-auto h-12 w-12 text-gray-400"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                            lineNumber: 410,
-                                            columnNumber: 75
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "mt-2",
-                                            children: 'Enter input values and click "Calculate" to see the results.'
-                                        }, void 0, false, {
-                                            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                            lineNumber: 410,
-                                            columnNumber: 133
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                    lineNumber: 410,
-                                    columnNumber: 26
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                            lineNumber: 393,
-                            columnNumber: 17
-                        }, ("TURBOPACK compile-time value", void 0))
-                    }, void 0, false, {
+                        className: "bg-blue-50 p-6 rounded-lg shadow-md border border-blue-200",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: "text-2xl font-bold mb-4 text-gray-800 border-b pb-2",
+                                children: "Outputs"
+                            }, void 0, false, {
+                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                lineNumber: 407,
+                                columnNumber: 21
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            outputs ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "grid grid-cols-2 gap-4 mb-4 text-center",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "bg-white p-3 rounded-lg shadow",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "text-sm text-gray-600",
+                                                        children: "Allowable Stress (fr)"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                                        lineNumber: 411,
+                                                        columnNumber: 81
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "text-xl font-bold text-green-600",
+                                                        children: [
+                                                            outputs.fr.toFixed(2),
+                                                            " MPa"
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                                        lineNumber: 411,
+                                                        columnNumber: 143
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                                lineNumber: 411,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "bg-white p-3 rounded-lg shadow",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "text-sm text-gray-600",
+                                                        children: "Load Factor"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                                        lineNumber: 412,
+                                                        columnNumber: 81
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "text-xl font-bold text-gray-700",
+                                                        children: LOAD_FACTOR
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                                        lineNumber: 412,
+                                                        columnNumber: 133
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                                lineNumber: 412,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                        lineNumber: 410,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "text-lg font-semibold text-gray-700 mb-2",
+                                        children: "Factored Stresses"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                        lineNumber: 414,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "space-y-2",
+                                        children: [
+                                            {
+                                                name: 'Interior',
+                                                value: outputs.sigma_i
+                                            },
+                                            {
+                                                name: 'Edge',
+                                                value: outputs.sigma_e
+                                            },
+                                            {
+                                                name: 'Corner',
+                                                value: outputs.sigma_c
+                                            }
+                                        ].map((stress)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: `flex justify-between items-center p-3 rounded-lg ${stress.value > outputs.fr ? 'bg-red-100' : 'bg-green-100'}`,
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "font-medium text-gray-800",
+                                                        children: [
+                                                            stress.name,
+                                                            " Stress:"
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                                        lineNumber: 416,
+                                                        columnNumber: 329
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "flex items-center gap-2",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: `font-bold text-lg ${stress.value > outputs.fr ? 'text-red-600' : 'text-green-700'}`,
+                                                                children: [
+                                                                    stress.value.toFixed(2),
+                                                                    " MPa"
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                                                lineNumber: 416,
+                                                                columnNumber: 442
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            stress.value > outputs.fr && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$triangle$2d$alert$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__AlertTriangle$3e$__["AlertTriangle"], {
+                                                                className: "text-red-500",
+                                                                size: 20
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                                                lineNumber: 416,
+                                                                columnNumber: 611
+                                                            }, ("TURBOPACK compile-time value", void 0))
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                                        lineNumber: 416,
+                                                        columnNumber: 401
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, stress.name, true, {
+                                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                                lineNumber: 416,
+                                                columnNumber: 182
+                                            }, ("TURBOPACK compile-time value", void 0)))
+                                    }, void 0, false, {
+                                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                        lineNumber: 415,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "mt-6",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(StressChart, {
+                                                data: outputs.internalData,
+                                                title: "Internal Stress Distribution",
+                                                lines: [
+                                                    {
+                                                        dataKey: 'radial',
+                                                        name: 'Radial Stress',
+                                                        color: '#ff0000'
+                                                    },
+                                                    {
+                                                        dataKey: 'tangential',
+                                                        name: 'Tangential Stress',
+                                                        color: '#000000'
+                                                    }
+                                                ]
+                                            }, void 0, false, {
+                                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                                lineNumber: 419,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(StressChart, {
+                                                data: outputs.edgeData,
+                                                title: "Edge Stress Distribution",
+                                                lines: [
+                                                    {
+                                                        dataKey: 'radial',
+                                                        name: 'Radial Stress',
+                                                        color: '#ff0000'
+                                                    }
+                                                ]
+                                            }, void 0, false, {
+                                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                                lineNumber: 420,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                        lineNumber: 418,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                lineNumber: 409,
+                                columnNumber: 25
+                            }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "text-center text-gray-500 mt-10",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$help$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__HelpCircle$3e$__["HelpCircle"], {
+                                        className: "mx-auto h-12 w-12 text-gray-400"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                        lineNumber: 423,
+                                        columnNumber: 75
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "mt-2",
+                                        children: 'Enter input values and click "Calculate" to see the results.'
+                                    }, void 0, false, {
+                                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                        lineNumber: 423,
+                                        columnNumber: 133
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                                lineNumber: 423,
+                                columnNumber: 26
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 392,
-                        columnNumber: 17
+                        lineNumber: 406,
+                        columnNumber: 18
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 373,
+                lineNumber: 388,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-        lineNumber: 371,
+        lineNumber: 386,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -1832,7 +1860,7 @@ const ResultCard = ({ title, thickness, ultimateStrength, factoredStress, isLoad
                 children: title
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 418,
+                lineNumber: 430,
                 columnNumber: 370
             }, ("TURBOPACK compile-time value", void 0)),
             " ",
@@ -1845,7 +1873,7 @@ const ResultCard = ({ title, thickness, ultimateStrength, factoredStress, isLoad
                 "data-ai-hint": "technical drawing"
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 418,
+                lineNumber: 430,
                 columnNumber: 451
             }, ("TURBOPACK compile-time value", void 0)),
             " ",
@@ -1855,12 +1883,12 @@ const ResultCard = ({ title, thickness, ultimateStrength, factoredStress, isLoad
                     className: "animate-spin h-8 w-8 text-indigo-600"
                 }, void 0, false, {
                     fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                    lineNumber: 418,
+                    lineNumber: 430,
                     columnNumber: 657
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 418,
+                lineNumber: 430,
                 columnNumber: 602
             }, ("TURBOPACK compile-time value", void 0)) : thickness ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "text-center space-y-1",
@@ -1872,7 +1900,7 @@ const ResultCard = ({ title, thickness, ultimateStrength, factoredStress, isLoad
                                 children: "Slab Thickness"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 418,
+                                lineNumber: 430,
                                 columnNumber: 784
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1885,19 +1913,19 @@ const ResultCard = ({ title, thickness, ultimateStrength, factoredStress, isLoad
                                         children: "mm"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 418,
+                                        lineNumber: 430,
                                         columnNumber: 901
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 418,
+                                lineNumber: 430,
                                 columnNumber: 839
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 418,
+                        lineNumber: 430,
                         columnNumber: 779
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1907,7 +1935,7 @@ const ResultCard = ({ title, thickness, ultimateStrength, factoredStress, isLoad
                                 children: "Ultimate Strength"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 418,
+                                lineNumber: 430,
                                 columnNumber: 951
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1920,19 +1948,19 @@ const ResultCard = ({ title, thickness, ultimateStrength, factoredStress, isLoad
                                         children: "MPa"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 418,
+                                        lineNumber: 430,
                                         columnNumber: 1071
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 418,
+                                lineNumber: 430,
                                 columnNumber: 1009
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 418,
+                        lineNumber: 430,
                         columnNumber: 946
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1942,7 +1970,7 @@ const ResultCard = ({ title, thickness, ultimateStrength, factoredStress, isLoad
                                 children: "Factored Stress"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 418,
+                                lineNumber: 430,
                                 columnNumber: 1122
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1955,25 +1983,25 @@ const ResultCard = ({ title, thickness, ultimateStrength, factoredStress, isLoad
                                         children: "MPa"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 418,
+                                        lineNumber: 430,
                                         columnNumber: 1238
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 418,
+                                lineNumber: 430,
                                 columnNumber: 1178
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 418,
+                        lineNumber: 430,
                         columnNumber: 1117
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 418,
+                lineNumber: 430,
                 columnNumber: 740
             }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "text-center text-gray-500 pt-8 pb-4",
@@ -1982,18 +2010,18 @@ const ResultCard = ({ title, thickness, ultimateStrength, factoredStress, isLoad
                     children: "Run calculation"
                 }, void 0, false, {
                     fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                    lineNumber: 418,
+                    lineNumber: 430,
                     columnNumber: 1348
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 418,
+                lineNumber: 430,
                 columnNumber: 1295
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-        lineNumber: 418,
+        lineNumber: 430,
         columnNumber: 248
     }, ("TURBOPACK compile-time value", void 0));
 const SingleRackCalculator = ({ sharedInputs, setPage })=>{
@@ -2125,12 +2153,12 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                     onClick: ()=>setPage('inputs')
                 }, void 0, false, {
                     fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                    lineNumber: 472,
+                    lineNumber: 484,
                     columnNumber: 36
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 472,
+                lineNumber: 484,
                 columnNumber: 14
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2138,7 +2166,7 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                 children: "Rack Loads - Single Line of Racks"
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 473,
+                lineNumber: 485,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2158,12 +2186,12 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                                     "data-ai-hint": "rack layout"
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                    lineNumber: 477,
+                                    lineNumber: 489,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 476,
+                                lineNumber: 488,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2174,7 +2202,7 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                                         children: "Inputs"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 480,
+                                        lineNumber: 492,
                                         columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2191,7 +2219,7 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                                                                 children: "x (mm)"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 482,
+                                                                lineNumber: 494,
                                                                 columnNumber: 90
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2202,13 +2230,13 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                                                                 className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 482,
+                                                                lineNumber: 494,
                                                                 columnNumber: 147
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 482,
+                                                        lineNumber: 494,
                                                         columnNumber: 65
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -2219,7 +2247,7 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                                                                 children: "y (mm)"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 482,
+                                                                lineNumber: 494,
                                                                 columnNumber: 325
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2230,19 +2258,19 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                                                                 className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 482,
+                                                                lineNumber: 494,
                                                                 columnNumber: 382
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 482,
+                                                        lineNumber: 494,
                                                         columnNumber: 300
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 482,
+                                                lineNumber: 494,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -2253,7 +2281,7 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                                                         children: "Unfactored Foot Load (P) (kN)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 483,
+                                                        lineNumber: 495,
                                                         columnNumber: 50
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2264,13 +2292,13 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                                                         className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 483,
+                                                        lineNumber: 495,
                                                         columnNumber: 130
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 483,
+                                                lineNumber: 495,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2284,7 +2312,7 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                                                                 children: "Base Plate a (mm)"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 484,
+                                                                lineNumber: 496,
                                                                 columnNumber: 90
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2295,13 +2323,13 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                                                                 className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 484,
+                                                                lineNumber: 496,
                                                                 columnNumber: 158
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 484,
+                                                        lineNumber: 496,
                                                         columnNumber: 65
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -2312,7 +2340,7 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                                                                 children: "Base Plate b (mm)"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 484,
+                                                                lineNumber: 496,
                                                                 columnNumber: 356
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2323,19 +2351,19 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                                                                 className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 484,
+                                                                lineNumber: 496,
                                                                 columnNumber: 424
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 484,
+                                                        lineNumber: 496,
                                                         columnNumber: 331
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 484,
+                                                lineNumber: 496,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -2346,7 +2374,7 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                                                         children: "No. of Load Cycles"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 485,
+                                                        lineNumber: 497,
                                                         columnNumber: 50
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -2359,74 +2387,74 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                                                                 children: "< 8000"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 485,
+                                                                lineNumber: 497,
                                                                 columnNumber: 267
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 children: "10000"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 485,
+                                                                lineNumber: 497,
                                                                 columnNumber: 293
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 children: "30000"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 485,
+                                                                lineNumber: 497,
                                                                 columnNumber: 315
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 children: "50000"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 485,
+                                                                lineNumber: 497,
                                                                 columnNumber: 337
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 children: "100000"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 485,
+                                                                lineNumber: 497,
                                                                 columnNumber: 359
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 children: "200000"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 485,
+                                                                lineNumber: 497,
                                                                 columnNumber: 382
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 children: "300000"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 485,
+                                                                lineNumber: 497,
                                                                 columnNumber: 405
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 children: "400000"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 485,
+                                                                lineNumber: 497,
                                                                 columnNumber: 428
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 485,
+                                                        lineNumber: 497,
                                                         columnNumber: 119
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 485,
+                                                lineNumber: 497,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 481,
+                                        lineNumber: 493,
                                         columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2438,26 +2466,26 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                                                 className: "animate-spin -ml-1 mr-3 h-5 w-5 text-white"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 487,
+                                                lineNumber: 499,
                                                 columnNumber: 276
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             isLoading ? 'Calculating...' : 'Calculate Thickness'
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 487,
+                                        lineNumber: 499,
                                         columnNumber: 22
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 479,
+                                lineNumber: 491,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 475,
+                        lineNumber: 487,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2470,7 +2498,7 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                                     children: "Outputs"
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                    lineNumber: 492,
+                                    lineNumber: 504,
                                     columnNumber: 26
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2485,7 +2513,7 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                                             isCritical: criticalLoadCase === 'interior'
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                            lineNumber: 494,
+                                            lineNumber: 506,
                                             columnNumber: 30
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ResultCard, {
@@ -2497,7 +2525,7 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                                             isCritical: criticalLoadCase === 'edge'
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                            lineNumber: 495,
+                                            lineNumber: 507,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ResultCard, {
@@ -2509,50 +2537,36 @@ const SingleRackCalculator = ({ sharedInputs, setPage })=>{
                                             isCritical: criticalLoadCase === 'corner'
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                            lineNumber: 496,
+                                            lineNumber: 508,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                    lineNumber: 493,
+                                    lineNumber: 505,
                                     columnNumber: 26
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                            lineNumber: 491,
+                            lineNumber: 503,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 490,
-                        columnNumber: 17
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "lg:col-span-2",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ReferencePanel, {
-                            sharedInputs: sharedInputs
-                        }, void 0, false, {
-                            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                            lineNumber: 500,
-                            columnNumber: 48
-                        }, ("TURBOPACK compile-time value", void 0))
-                    }, void 0, false, {
-                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 500,
+                        lineNumber: 502,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 474,
+                lineNumber: 486,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-        lineNumber: 471,
+        lineNumber: 483,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -2717,12 +2731,12 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                     onClick: ()=>setPage('inputs')
                 }, void 0, false, {
                     fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                    lineNumber: 569,
+                    lineNumber: 580,
                     columnNumber: 35
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 569,
+                lineNumber: 580,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2730,7 +2744,7 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                 children: "Rack Loads - Back-to-Back Racks"
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 570,
+                lineNumber: 581,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2744,7 +2758,7 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                 children: "Inputs"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 573,
+                                lineNumber: 584,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2758,7 +2772,7 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                                 children: "Short Leg Spacing (x) (mm)"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 575,
+                                                lineNumber: 586,
                                                 columnNumber: 50
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2769,13 +2783,13 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                                 className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 575,
+                                                lineNumber: 586,
                                                 columnNumber: 127
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 575,
+                                        lineNumber: 586,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -2786,7 +2800,7 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                                 children: "Long Leg Spacing (y) (mm)"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 576,
+                                                lineNumber: 587,
                                                 columnNumber: 50
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2797,13 +2811,13 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                                 className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 576,
+                                                lineNumber: 587,
                                                 columnNumber: 126
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 576,
+                                        lineNumber: 587,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -2814,7 +2828,7 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                                 children: "Clear spacing between legs (z) (mm)"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 577,
+                                                lineNumber: 588,
                                                 columnNumber: 50
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2825,13 +2839,13 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                                 className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 577,
+                                                lineNumber: 588,
                                                 columnNumber: 136
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 577,
+                                        lineNumber: 588,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -2842,7 +2856,7 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                                 children: "Unfactored Foot Load (P) (kN)"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 578,
+                                                lineNumber: 589,
                                                 columnNumber: 50
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2853,13 +2867,13 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                                 className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 578,
+                                                lineNumber: 589,
                                                 columnNumber: 130
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 578,
+                                        lineNumber: 589,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2873,7 +2887,7 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                                         children: "Base Plate a (mm)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 579,
+                                                        lineNumber: 590,
                                                         columnNumber: 90
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2884,13 +2898,13 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                                         className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 579,
+                                                        lineNumber: 590,
                                                         columnNumber: 158
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 579,
+                                                lineNumber: 590,
                                                 columnNumber: 65
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -2901,7 +2915,7 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                                         children: "Base Plate b (mm)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 579,
+                                                        lineNumber: 590,
                                                         columnNumber: 356
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2912,19 +2926,19 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                                         className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 579,
+                                                        lineNumber: 590,
                                                         columnNumber: 424
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 579,
+                                                lineNumber: 590,
                                                 columnNumber: 331
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 579,
+                                        lineNumber: 590,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -2935,7 +2949,7 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                                 children: "No. of Load Cycles"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 580,
+                                                lineNumber: 591,
                                                 columnNumber: 50
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -2948,74 +2962,74 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                                         children: "< 8000"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 580,
+                                                        lineNumber: 591,
                                                         columnNumber: 267
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                         children: "10000"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 580,
+                                                        lineNumber: 591,
                                                         columnNumber: 293
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                         children: "30000"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 580,
+                                                        lineNumber: 591,
                                                         columnNumber: 315
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                         children: "50000"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 580,
+                                                        lineNumber: 591,
                                                         columnNumber: 337
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                         children: "100000"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 580,
+                                                        lineNumber: 591,
                                                         columnNumber: 359
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                         children: "200000"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 580,
+                                                        lineNumber: 591,
                                                         columnNumber: 382
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                         children: "300000"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 580,
+                                                        lineNumber: 591,
                                                         columnNumber: 405
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                         children: "400000"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 580,
+                                                        lineNumber: 591,
                                                         columnNumber: 428
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 580,
+                                                lineNumber: 591,
                                                 columnNumber: 119
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 580,
+                                        lineNumber: 591,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 574,
+                                lineNumber: 585,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3027,32 +3041,25 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                         className: "animate-spin -ml-1 mr-3 h-5 w-5 text-white"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 582,
+                                        lineNumber: 593,
                                         columnNumber: 275
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     isLoading ? 'Calculating...' : 'Calculate Thickness'
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 582,
+                                lineNumber: 593,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 572,
+                        lineNumber: 583,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "lg:col-span-2 space-y-6",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ReferencePanel, {
-                                sharedInputs: sharedInputs
-                            }, void 0, false, {
-                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 585,
-                                columnNumber: 18
-                            }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "bg-white p-4 rounded-lg shadow-md flex justify-center items-center border",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3064,12 +3071,12 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                     "data-ai-hint": "rack layout"
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                    lineNumber: 586,
+                                    lineNumber: 596,
                                     columnNumber: 109
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 586,
+                                lineNumber: 596,
                                 columnNumber: 18
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3080,7 +3087,7 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                         children: "Outputs"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 588,
+                                        lineNumber: 598,
                                         columnNumber: 26
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3095,7 +3102,7 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                                 isCritical: criticalLoadCase === 'interior'
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 590,
+                                                lineNumber: 600,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ResultCard, {
@@ -3107,7 +3114,7 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                                 isCritical: criticalLoadCase === 'edgeLong'
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 591,
+                                                lineNumber: 601,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ResultCard, {
@@ -3119,7 +3126,7 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                                 isCritical: criticalLoadCase === 'edgeShort'
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 592,
+                                                lineNumber: 602,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ResultCard, {
@@ -3131,37 +3138,37 @@ const BackToBackRackCalculator = ({ sharedInputs, setPage })=>{
                                                 isCritical: criticalLoadCase === 'corner'
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 593,
+                                                lineNumber: 603,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 589,
+                                        lineNumber: 599,
                                         columnNumber: 26
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 587,
+                                lineNumber: 597,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 584,
+                        lineNumber: 595,
                         columnNumber: 14
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 571,
+                lineNumber: 582,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-        lineNumber: 568,
+        lineNumber: 579,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -3301,12 +3308,12 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                     onClick: ()=>setPage('inputs')
                 }, void 0, false, {
                     fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                    lineNumber: 680,
+                    lineNumber: 690,
                     columnNumber: 35
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 680,
+                lineNumber: 690,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -3314,7 +3321,7 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                 children: "Wheel Loads - Single or Dual Wheeled"
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 681,
+                lineNumber: 691,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3328,7 +3335,7 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                 children: "Inputs"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 684,
+                                lineNumber: 694,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3343,7 +3350,7 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                         "data-ai-hint": "wheel load"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 686,
+                                        lineNumber: 696,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3357,7 +3364,7 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                                         children: "Wheel Type"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 688,
+                                                        lineNumber: 698,
                                                         columnNumber: 54
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -3371,7 +3378,7 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                                                 children: "Single"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 688,
+                                                                lineNumber: 698,
                                                                 columnNumber: 224
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -3379,19 +3386,19 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                                                 children: "Dual"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 688,
+                                                                lineNumber: 698,
                                                                 columnNumber: 262
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 688,
+                                                        lineNumber: 698,
                                                         columnNumber: 115
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 688,
+                                                lineNumber: 698,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             inputs.wheelType === 'dual' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -3402,7 +3409,7 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                                         children: "TC = Dual Wheel Spacing (mm)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 689,
+                                                        lineNumber: 699,
                                                         columnNumber: 87
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -3413,13 +3420,13 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                                         className: "mt-1 block w-full"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 689,
+                                                        lineNumber: 699,
                                                         columnNumber: 166
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 689,
+                                                lineNumber: 699,
                                                 columnNumber: 62
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -3430,7 +3437,7 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                                         children: "s = Wheel Spacing (mm)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 690,
+                                                        lineNumber: 700,
                                                         columnNumber: 54
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -3441,13 +3448,13 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                                         className: "mt-1 block w-full"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 690,
+                                                        lineNumber: 700,
                                                         columnNumber: 127
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 690,
+                                                lineNumber: 700,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -3458,7 +3465,7 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                                         children: "sₐ = Axle Spacing (mm)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 691,
+                                                        lineNumber: 701,
                                                         columnNumber: 54
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -3469,13 +3476,13 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                                         className: "mt-1 block w-full"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 691,
+                                                        lineNumber: 701,
                                                         columnNumber: 127
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 691,
+                                                lineNumber: 701,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -3486,7 +3493,7 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                                         children: "Tyre Pressure (kPa)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 692,
+                                                        lineNumber: 702,
                                                         columnNumber: 54
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -3497,13 +3504,13 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                                         className: "mt-1 block w-full"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 692,
+                                                        lineNumber: 702,
                                                         columnNumber: 124
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 692,
+                                                lineNumber: 702,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -3514,7 +3521,7 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                                         children: "Axle Load (kN)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 693,
+                                                        lineNumber: 703,
                                                         columnNumber: 54
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -3525,13 +3532,13 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                                         className: "mt-1 block w-full"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 693,
+                                                        lineNumber: 703,
                                                         columnNumber: 119
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 693,
+                                                lineNumber: 703,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -3542,7 +3549,7 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                                         children: "No. of Load Cycles"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 694,
+                                                        lineNumber: 704,
                                                         columnNumber: 55
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -3555,80 +3562,80 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                                                 children: "< 8000"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 694,
+                                                                lineNumber: 704,
                                                                 columnNumber: 235
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 children: "10000"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 694,
+                                                                lineNumber: 704,
                                                                 columnNumber: 261
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 children: "30000"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 694,
+                                                                lineNumber: 704,
                                                                 columnNumber: 283
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 children: "50000"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 694,
+                                                                lineNumber: 704,
                                                                 columnNumber: 305
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 children: "100000"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 694,
+                                                                lineNumber: 704,
                                                                 columnNumber: 327
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 children: "200000"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 694,
+                                                                lineNumber: 704,
                                                                 columnNumber: 350
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 children: "300000"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 694,
+                                                                lineNumber: 704,
                                                                 columnNumber: 373
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 children: "400000"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                                lineNumber: 694,
+                                                                lineNumber: 704,
                                                                 columnNumber: 396
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                        lineNumber: 694,
+                                                        lineNumber: 704,
                                                         columnNumber: 124
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                                lineNumber: 694,
+                                                lineNumber: 704,
                                                 columnNumber: 30
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 687,
+                                        lineNumber: 697,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 685,
+                                lineNumber: 695,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3640,38 +3647,31 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                         className: "animate-spin -ml-1 mr-3 h-5 w-5 text-white"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 697,
+                                        lineNumber: 707,
                                         columnNumber: 252
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     isLoading ? 'Calculating...' : 'Calculate Thickness'
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 697,
+                                lineNumber: 707,
                                 columnNumber: 22
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 683,
+                        lineNumber: 693,
                         columnNumber: 18
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "bg-blue-50 p-6 rounded-lg shadow-md border border-blue-200",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ReferencePanel, {
-                                sharedInputs: sharedInputs
-                            }, void 0, false, {
-                                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 700,
-                                columnNumber: 21
-                            }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                 className: "text-xl font-bold mb-4 text-gray-800 border-b pb-2",
                                 children: "Outputs"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 701,
+                                lineNumber: 710,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3687,7 +3687,7 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                         isCritical: criticalLoadCase === 'interior'
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 703,
+                                        lineNumber: 712,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ResultCard, {
@@ -3700,7 +3700,7 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                         isCritical: criticalLoadCase === 'edgePerp'
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 704,
+                                        lineNumber: 713,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ResultCard, {
@@ -3713,7 +3713,7 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                         isCritical: criticalLoadCase === 'edgePara'
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 705,
+                                        lineNumber: 714,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ResultCard, {
@@ -3726,31 +3726,31 @@ const WheelLoadCalculator = ({ sharedInputs, setPage })=>{
                                         isCritical: criticalLoadCase === 'corner'
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                        lineNumber: 706,
+                                        lineNumber: 715,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                                lineNumber: 702,
+                                lineNumber: 711,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                        lineNumber: 699,
+                        lineNumber: 709,
                         columnNumber: 18
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 682,
+                lineNumber: 692,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-        lineNumber: 679,
+        lineNumber: 689,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -3769,6 +3769,10 @@ function App() {
         jointType: 'Dowel Joints',
         postTensionStress: 0
     });
+    const [isClient, setIsClient] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        setIsClient(true);
+    }, []);
     const renderPage = ()=>{
         switch(page){
             case 'point':
@@ -3777,7 +3781,7 @@ function App() {
                     setPage: setPage
                 }, void 0, false, {
                     fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                    lineNumber: 721,
+                    lineNumber: 735,
                     columnNumber: 34
                 }, this);
             case 'singleRack':
@@ -3786,7 +3790,7 @@ function App() {
                     setPage: setPage
                 }, void 0, false, {
                     fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                    lineNumber: 722,
+                    lineNumber: 736,
                     columnNumber: 39
                 }, this);
             case 'backToBackRack':
@@ -3795,7 +3799,7 @@ function App() {
                     setPage: setPage
                 }, void 0, false, {
                     fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                    lineNumber: 723,
+                    lineNumber: 737,
                     columnNumber: 43
                 }, this);
             case 'wheel':
@@ -3804,7 +3808,7 @@ function App() {
                     setPage: setPage
                 }, void 0, false, {
                     fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                    lineNumber: 724,
+                    lineNumber: 738,
                     columnNumber: 34
                 }, this);
             case 'inputs':
@@ -3815,7 +3819,7 @@ function App() {
                     setPage: setPage
                 }, void 0, false, {
                     fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                    lineNumber: 727,
+                    lineNumber: 741,
                     columnNumber: 24
                 }, this);
         }
@@ -3833,7 +3837,7 @@ function App() {
                             children: "TM38 Concrete Slab on Ground Calculator"
                         }, void 0, false, {
                             fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                            lineNumber: 733,
+                            lineNumber: 747,
                             columnNumber: 113
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3841,18 +3845,18 @@ function App() {
                             children: "Design tool for point load calculations based on CCANZ TM38."
                         }, void 0, false, {
                             fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                            lineNumber: 733,
+                            lineNumber: 747,
                             columnNumber: 206
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                    lineNumber: 733,
+                    lineNumber: 747,
                     columnNumber: 52
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 733,
+                lineNumber: 747,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -3862,13 +3866,64 @@ function App() {
                     children: renderPage()
                 }, void 0, false, {
                     fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                    lineNumber: 734,
+                    lineNumber: 748,
                     columnNumber: 75
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 734,
+                lineNumber: 748,
                 columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
+                className: "bg-white shadow-md",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                            className: "text-3xl font-bold text-gray-800",
+                            children: "TM38 Concrete Slab on Ground Calculator"
+                        }, void 0, false, {
+                            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                            lineNumber: 749,
+                            columnNumber: 113
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-gray-600",
+                            children: "Design tool for point load calculations based on CCANZ TM38."
+                        }, void 0, false, {
+                            fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                            lineNumber: 749,
+                            columnNumber: 206
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                    lineNumber: 749,
+                    columnNumber: 52
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                lineNumber: 749,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+                className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "bg-white rounded-lg shadow-xl overflow-hidden",
+                    children: isClient ? renderPage() : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(LoadingSpinner, {}, void 0, false, {
+                        fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                        lineNumber: 749,
+                        columnNumber: 466
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                    lineNumber: 749,
+                    columnNumber: 376
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
+                lineNumber: 749,
+                columnNumber: 314
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$TM38$2d$Calc$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
                 className: "text-center py-4 text-sm text-gray-500",
@@ -3876,22 +3931,22 @@ function App() {
                     children: "Disclaimer: This programme does not check for punching shear or bearing capacity. The designer must confirm that these comply with NZS3101."
                 }, void 0, false, {
                     fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                    lineNumber: 735,
+                    lineNumber: 750,
                     columnNumber: 73
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-                lineNumber: 735,
+                lineNumber: 750,
                 columnNumber: 14
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Documents/GitHub/TM38-Calc/app/page.tsx",
-        lineNumber: 732,
+        lineNumber: 746,
         columnNumber: 9
     }, this);
 }
 }),
 ];
 
-//# sourceMappingURL=Documents_GitHub_TM38-Calc_app_page_tsx_bd51babe._.js.map
+//# sourceMappingURL=%5Broot-of-the-server%5D__424b92f3._.js.map
